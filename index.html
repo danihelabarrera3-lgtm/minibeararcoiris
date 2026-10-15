@@ -1,0 +1,397 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MINIMU: pinzas y accesorios para el cabello de bebés, niñas y adolescentes.">
+    <title>MINIMU | Pinzas que te acompañan</title>
+
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body class="theme-rainbow">
+
+    <!-- ENCABEZADO Y NAVEGACIÓN -->
+    <header class="site-header">
+        <a class="logo" href="index.html" aria-label="MINIMU, inicio">
+            <span>🎀</span> MINIMU
+        </a>
+
+        <button class="menu-toggle" type="button"
+                aria-label="Abrir menú" aria-expanded="false">
+            ☰
+        </button>
+
+        <nav class="navigation" aria-label="Menú principal">
+            <a class="active" href="index.html">🏠 Inicio</a>
+            <a href="nosotros.html">💗 Quiénes Somos</a>
+            <a href="portafolio.html">🎀 Portafolio</a>
+            <a href="servicios.html">✨ Servicios</a>
+            <a href="contacto.html">💌 Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- PORTADA -->
+        <section class="hero" id="inicio">
+            <div class="hero-content">
+                <span class="eyebrow">🌈 Accesorios llenos de magia</span>
+
+                <h1>¡Bienvenidos al mundo <span>MINIMU</span>!</h1>
+
+                <p>
+                    Pinzas, colores y pequeños detalles que hacen
+                    cada día más especial. Encuentra tu estilo,
+                    desde los primeros años hasta la adolescencia.
+                </p>
+
+                <a class="btn" href="#productos">🎀 Ver productos</a>
+                <a class="btn btn-secondary" href="nosotros.html">
+                    Conócenos 💕
+                </a>
+            </div>
+
+            <div class="hero-art">
+                <span class="floating-decoration decoration-one">⭐</span>
+
+                <img
+                    src="https://images.unsplash.com/photo-1519689680058-324335c77eba?auto=format&fit=crop&w=900&q=85"
+                    alt="Inspiración de accesorios y estilo infantil"
+                    loading="eager"
+                >
+
+                <span class="floating-decoration decoration-two">🦋</span>
+            </div>
+        </section>
+
+        <!-- SELECTOR DE MUNDOS -->
+        <section class="weather-section" id="mundos">
+            <div class="section-heading">
+                <span class="section-tag">✨ ¡Tú eliges la magia!</span>
+                <h2>Explora nuestros mundos</h2>
+                <p>
+                    Pulsa un botón para cambiar el ambiente y descubrir
+                    diferentes colores y efectos.
+                </p>
+            </div>
+
+            <div class="theme-buttons">
+                <button class="theme-btn active" type="button"
+                        data-theme="rainbow" aria-pressed="true">
+                    🌈 Arcoíris
+                </button>
+
+                <button class="theme-btn" type="button"
+                        data-theme="dark" aria-pressed="false">
+                    🌙 Noche mágica
+                </button>
+
+                <button class="theme-btn" type="button"
+                        data-theme="rain" aria-pressed="false">
+                    ☁️ Lluvia
+                </button>
+
+                <button class="theme-btn" type="button"
+                        data-theme="snow" aria-pressed="false">
+                    ❄️ Nieve
+                </button>
+
+                <button class="theme-btn" type="button"
+                        data-theme="autumn" aria-pressed="false">
+                    🍂 Otoño
+                </button>
+
+                <button class="theme-btn" type="button"
+                        data-theme="spring" aria-pressed="false">
+                    🌸 Primavera
+                </button>
+            </div>
+
+            <div class="magic-scene" id="magicScene">
+                <div class="scene-decoration" id="sceneDecoration"
+                     aria-hidden="true">
+                    <span>🌈</span>
+                    <span>⭐</span>
+                    <span>🦋</span>
+                    <span>☁️</span>
+                    <span>💖</span>
+                </div>
+
+                <div class="scene-message">
+                    <span id="sceneEmoji" aria-hidden="true">🌈🧸✨</span>
+                    <h3 id="sceneTitle">¡Un mundo lleno de colores!</h3>
+                    <p id="sceneDescription">
+                        En MINIMU, cada pequeño detalle está lleno
+                        de amor, ternura y magia.
+                    </p>
+                    <p><small>✨ ¡Toca aquí para crear destellos! ✨</small></p>
+                </div>
+
+                <div class="magic-effects" id="magicEffects"
+                     aria-hidden="true"></div>
+            </div>
+        </section>
+
+        <!-- CATÁLOGO: MÁXIMO 10 PRODUCTOS -->
+        <section class="products-section" id="productos">
+            <div class="section-heading">
+                <span class="section-tag">🎀 Colección MINIMU</span>
+                <h2>Pequeñas pinzas, grandes sonrisas</h2>
+                <p>
+                    Accesorios para combinar, regalar y crear looks
+                    llenos de personalidad.
+                </p>
+            </div>
+
+            <div class="product-grid">
+
+                <article class="product-card">
+                    <div class="product-image">
+                        <span class="product-label">Favorito</span>
+                        <img
+                            src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=700&q=80"
+                            alt="Accesorios para el cabello en tonos rosados"
+                            loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3>Set Arcoíris</h3>
+                        <p>Colores alegres para todos los días.</p>
+                        <span class="product-price">$12.900 COP</span>
+                        <a class="product-link" href="contacto.html">
+                            Consultar producto →
+                        </a>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image">
+                        <span class="product-label">Adolescentes</span>
+                        <img
+                            src="https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=700&q=80"
+                            alt="Inspiración de moda juvenil"
+                            loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3>Pinzas Urbanas</h3>
+                        <p>Un toque moderno y diferente.</p>
+                        <span class="product-price">$14.900 COP</span>
+                        <a class="product-link" href="contacto.html">
+                            Consultar producto →
+                        </a>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image">
+                        <span class="product-label">Dulce</span>
+                        <img
+                            src="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=700&q=80"
+                            alt="Accesorios delicados para regalar"
+                            loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3>Nubes y Estrellas</h3>
+                        <p>Detalles tiernos y encantadores.</p>
+                        <span class="product-price">$11.900 COP</span>
+                        <a class="product-link" href="contacto.html">
+                            Consultar producto →
+                        </a>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image">
+                        <span class="product-label">Especial</span>
+                        <img
+                            src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=700&q=80"
+                            alt="Inspiración de estilo para adolescentes"
+                            loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3>Estilo Brillante</h3>
+                        <p>Para destacar con tu propio estilo.</p>
+                        <span class="product-price">$15.900 COP</span>
+                        <a class="product-link" href="contacto.html">
+                            Consultar producto →
+                        </a>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image">
+                        <span class="product-label">Floral</span>
+                        <img
+                            src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=700&q=80"
+                            alt="Flores delicadas en tonos pastel"
+                            loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3>Jardín de Flores</h3>
+                        <p>Inspirado en la belleza de la primavera.</p>
+                        <span class="product-price">$10.900 COP</span>
+                        <a class="product-link" href="contacto.html">
+                            Consultar producto →
+                        </a>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image">
+                        <span class="product-label">Divertido</span>
+                        <img
+                            src="https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=700&q=80"
+                            alt="Colores y materiales para crear"
+                            loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3>Pinzas Creativas</h3>
+                        <p>Combinaciones llenas de imaginación.</p>
+                        <span class="product-price">$13.900 COP</span>
+                        <a class="product-link" href="contacto.html">
+                            Consultar producto →
+                        </a>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image">
+                        <span class="product-label">Elegante</span>
+                        <img
+                            src="https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=700&q=80"
+                            alt="Accesorios elegantes y delicados"
+                            loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3>Lazos Mágicos</h3>
+                        <p>Un detalle especial para cada ocasión.</p>
+                        <span class="product-price">$12.900 COP</span>
+                        <a class="product-link" href="contacto.html">
+                            Consultar producto →
+                        </a>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image">
+                        <span class="product-label">Pastel</span>
+                        <img
+                            src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=700&q=80"
+                            alt="Inspiración de moda en colores suaves"
+                            loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3>Colección Pastel</h3>
+                        <p>Suavidad y color para combinar.</p>
+                        <span class="product-price">$11.900 COP</span>
+                        <a class="product-link" href="contacto.html">
+                            Consultar producto →
+                        </a>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image">
+                        <span class="product-label">Regalo</span>
+                        <img
+                            src="https://images.unsplash.com/photo-1513201099705-a9746e1e201f?auto=format&fit=crop&w=700&q=80"
+                            alt="Regalo preparado con cariño"
+                            loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3>Cajita Sorpresa</h3>
+                        <p>Una idea bonita para regalar.</p>
+                        <span class="product-price">$16.900 COP</span>
+                        <a class="product-link" href="contacto.html">
+                            Consultar producto →
+                        </a>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image">
+                        <span class="product-label">Versátil</span>
+                        <img
+                            src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=700&q=80"
+                            alt="Accesorios y detalles de estilo"
+                            loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3>Mini Colección</h3>
+                        <p>Pequeños detalles para tu día.</p>
+                        <span class="product-price">$13.500 COP</span>
+                        <a class="product-link" href="contacto.html">
+                            Consultar producto →
+                        </a>
+                    </div>
+                </article>
+
+            </div>
+
+            <div class="center-button">
+                <a href="portafolio.html" class="btn">
+                    Ver colección completa 💖
+                </a>
+            </div>
+        </section>
+
+        <!-- BENEFICIOS -->
+        <section class="promise-section">
+            <div class="section-heading">
+                <span class="section-tag">💗 Nuestro compromiso</span>
+                <h2>Hecho para acompañar tus momentos</h2>
+            </div>
+
+            <div class="promise-grid">
+                <article class="promise-card">
+                    <span class="promise-icon">🎀</span>
+                    <h3>Mucho estilo</h3>
+                    <p>Colores y diseños para distintas edades y gustos.</p>
+                </article>
+
+                <article class="promise-card">
+                    <span class="promise-icon">💝</span>
+                    <h3>Detalles especiales</h3>
+                    <p>Accesorios ideales para sorprender a alguien querido.</p>
+                </article>
+
+                <article class="promise-card">
+                    <span class="promise-icon">🌈</span>
+                    <h3>Un mundo de color</h3>
+                    <p>Encuentra combinaciones para expresar tu personalidad.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- INVITACIÓN FINAL -->
+        <section class="cta-section">
+            <h2>¡Tu próximo accesorio favorito te espera! 🎀</h2>
+            <p>
+                Explora nuestros productos o escríbenos para consultar
+                disponibilidad, diseños y opciones de regalo.
+            </p>
+            <a class="btn" href="contacto.html">💌 Contáctanos</a>
+        </section>
+
+    </main>
+
+    <!-- PIE DE PÁGINA -->
+    <footer class="site-footer">
+        <a class="logo" href="index.html">🎀 MINIMU</a>
+        <p>Pinzas que te acompañan. Pequeños detalles, grandes sonrisas.</p>
+
+        <div class="footer-links">
+            <a href="index.html">Inicio</a>
+            <a href="nosotros.html">Quiénes Somos</a>
+            <a href="portafolio.html">Portafolio</a>
+            <a href="servicios.html">Servicios</a>
+            <a href="contacto.html">Contacto</a>
+        </div>
+
+        <p>© <span id="currentYear">2026</span> MINIMU. Todos los derechos reservados.</p>
+        <p><small>Precios de ejemplo en pesos colombianos (COP).</small></p>
+    </footer>
+<script src="./js/main.js"></script>
+</body>
+</html>
